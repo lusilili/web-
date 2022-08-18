@@ -1,0 +1,51 @@
+body {
+    background-color: whitesmoke;
+    background-image: url(../网页设计-movies/images/背景.png);
+}
+#box{text-align:center;
+    width:80%;
+    margin:0 auto;
+    background-color:ghostwhite
+    }
+.nav ul {
+        margin:0;
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+        position:fixed;
+        background-color:whitesmoke;
+        background-image: url(../网页设计-movies/images/背景.png);
+        top: 0;
+        width: 100%;
+    }
+.nav li {
+        float:left;
+    }
+.nav li a {
+        display: block;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+.nav li a:hover {
+        background-color: rgb(165, 164, 164);
+    }
+
+
+    #footer{font-size:small;}
+        
+     
+    a{text-decoration:none;}
+    a:hover{text-decoration:underline;color:red;}
+        
+    .banner{width:850px;height:320px;}
+    .lastline{ margin-bottom:2em; }
+
+    #bread{border-bottom:1px black dotted;
+        padding:3px;
+        text-align:left;}
+        .pics{
+            width:350px; height:515px; margin:8px;
+            }
