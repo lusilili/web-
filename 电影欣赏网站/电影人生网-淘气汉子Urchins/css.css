@@ -1,70 +1,36 @@
 body {
     background-color: whitesmoke;
-    background-image: url(../电影人生网/images/背景.webp);
-}
-h1 {
-    font-family:'STSong';
-    font-size: 280%;
-    color: rgb(187, 138, 16);
-    text-shadow: rgb(228, 214, 138) 1px 0 10px;
-}
-h2 {
-    font-family: 'STKaiti';
-    font-size: 180%;
-    color: rgb(153, 130, 71);
-    background-color: rgb(243, 242, 242);
+    background-image: url(../网页设计-movies/images/背景.png);
 }
 #box{text-align:center;
-    width:75%;
+    width:80%;
     margin:0 auto;
     background-color:ghostwhite
     }
-    #box p{
-        color:rgb(149, 120, 82);
-        font-size: medium;
-        font-weight: 1000;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size:25px;
-        letter-spacing: 15px;
-    }
-    p#footer{
-        font-size: small;
-        font-weight: 10;
-        font-family:"Microsoft YaHei";
-        letter-spacing: 0px;
-    }
-.nav{
-    margin-top: 300px;
-    text-align: left;
-}
 .nav ul {
         margin:0;
+        list-style-type: none;
         padding: 0;
         overflow: hidden;
         position:fixed;
         background-color:whitesmoke;
-        background-image: url(../电影人生网/images/背景.webp);
+        background-image: url(../网页设计-movies/images/背景.png);
         top: 0;
         width: 100%;
     }
 .nav li {
-        display:inline-block;
-        padding: 0 20px;
-        margin: 0 10px;
+        float:left;
     }
 .nav li a {
         display: block;
-        color: rgb(88, 63, 14);
+        color: rgb(0, 0, 0);
         text-align: center;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
         padding: 14px 16px;
         text-decoration: none;
-        transition: width 2s, background-color 2s, transform 2s;
     }
     
 .nav li a:hover {
-        background-color: rgb(211, 198, 147);
-        width: 100px  
+        background-color: rgb(165, 164, 164);
     }
 
 
@@ -74,7 +40,7 @@ h2 {
     a{text-decoration:none;}
     a:hover{text-decoration:underline;color:red;}
         
-    .banner{width:100%;}
+    .banner{width:850px;height:320px;}
     .lastline{ margin-bottom:2em; }
 
     #bread{border-bottom:1px black dotted;
@@ -82,20 +48,4 @@ h2 {
         text-align:left;}
         .pics{
             width:350px; height:515px; margin:8px;
-            transition:width 1s, height 1s, background-color 0.5s, transform 1.5s;
-            -webkit-transition:width 1s, height 1s,
-            background-color 0.5s, -webkit-transform 1.5s;
             }
-            .pics:hover{
-                height: 588px;
-                width: 400px  
-            }
-#index p{
-    font-size: 22;
-    font-family:"STXingkai";
-    font-weight: 10;
-}
-#index p#footer{
-    font-size:small;
-    font-family:"Microsoft YaHei ";
-}
