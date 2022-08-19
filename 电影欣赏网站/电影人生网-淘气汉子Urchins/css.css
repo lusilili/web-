@@ -29,7 +29,8 @@ h2 {
     }
     p#footer{
         font-size: small;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 10;
+        font-family:"Microsoft YaHei";
         letter-spacing: 0px;
     }
 .nav{
