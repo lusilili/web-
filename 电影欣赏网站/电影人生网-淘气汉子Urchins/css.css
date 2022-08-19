@@ -48,4 +48,11 @@ body {
         text-align:left;}
         .pics{
             width:350px; height:515px; margin:8px;
+            transition:width 1s, height 1s, background-color 0.5s, transform 1.5s;
+            -webkit-transition:width 1s, height 1s,
+            background-color 0.5s, -webkit-transform 1.5s;
+            }
+            .pics:hover{
+                height: 588px;
+                width: 400px  
             }
