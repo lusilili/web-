@@ -34,9 +34,10 @@ h2 {
         font-family:"Microsoft YaHei";
         letter-spacing: 0px;
     }
+    #box.nav
 .nav{
     margin-top: 300px;
-    text-align: left;
+    text-align: center;
 }
 .nav ul {
         margin:0;
